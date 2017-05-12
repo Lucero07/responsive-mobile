@@ -48,6 +48,8 @@ body {
 .seccion1 {
   display: flex;
   justify-content: center;
+width: 100%;
+height: auto;
 }
 
 .seccion1 img {
@@ -144,14 +146,20 @@ margin: 1%;
     font-size: .6rem;
   }
   .seccion1 p {
-    font-size: 2rem;
+    font-size: 1rem;
     top:15%;
+  }
+  .seccion2 p{
+    font-size: 1rem;
   }
 }
 @media (max-width:480px){
   .seccion1 p {
     font-size: 1rem;
     top:12%;
+  }
+  .seccion2 p{
+    font-size: .7rem;
   }
 }
 @media (max-width:320px) {
@@ -162,7 +170,7 @@ margin: 1%;
     background-color: pink;
   }
   .seccion4{
-    background-color:#A6F367; 
+    background-color:#A6F367;
   }
   .seccion1 p{
     font-size: .3rem;
